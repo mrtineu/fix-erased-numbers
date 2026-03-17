@@ -1,5 +1,8 @@
 # MNIST Digit Reconstruction
 
+[![Live Demo](https://img.shields.io/badge/🤗%20HuggingFace-Live%20Demo-blue)](https://huggingface.co/spaces/mrtineu/fix-erased-numbers)
+[![Model](https://img.shields.io/badge/🤗%20HuggingFace-Model-orange)](https://huggingface.co/mrtineu/fix-erased-numbers)
+
 This project is a machine learning solution focused on reconstructing partially "erased" handwritten digits. I created it as my submission for the second home assignment of the [Slovak AI Olympics 2025/26](https://www.ncdtv.sk/olympiada-v-umelej-inteligencii/).
 
 The goal was to build a model that can take a digit image with missing parts (erased by a simulated "rubber") and restore it to its original form.
@@ -69,6 +72,13 @@ The model shows strong performance in filling in the gaps. Even when significant
 #### Error Distribution
 ![Error Distribution](images/error_distribution.png)
 *Histogram of the L1 Loss on the test set, showing most errors are very low.*
+
+## Links
+
+| Resource | URL |
+|---|---|
+| 🚀 Live Demo (HuggingFace Space) | https://huggingface.co/spaces/mrtineu/fix-erased-numbers |
+| 🤗 Model on HuggingFace Hub | https://huggingface.co/mrtineu/fix-erased-numbers |
 
 ## How to run
 
